@@ -1,4 +1,4 @@
-name: TP-GWAS
+name: TP-GWAS-short
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest prioriy
@@ -7,18 +7,23 @@ channels:
   - bioconda
   - conda-forge
 dependencies:
-  - jupyterlab>3
-  - pandas
-  - nbresuse
-  - python>=3.7
+  - python>=3.8
   - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyterlab>=3.2,<4
+  - ipywidgets>=7.6,<8
+  - jupyter-resource-usage
+  - jupyterlab-topbar
+  - jupyterlab-topbar-text
+  - jupyterlab-system-monitor
   - nodejs
+  - nbresuse
   - r-base=4
   - rpy2
   - simplegeneric # for some reasons needed by rpy2
   - plink=1.90b6.12
   - king=2.2.4
   - r-qqman==0.1.4
-  - numpy
-  - matplotlib
   - psutil
