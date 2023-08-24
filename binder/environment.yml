@@ -20,6 +20,8 @@ dependencies:
   - jupyterlab-system-monitor
   - nodejs
   - nbresuse
+  - python>=3.7
+  - nodejs
   - r-base=4
   - rpy2
   - simplegeneric # for some reasons needed by rpy2
@@ -27,3 +29,4 @@ dependencies:
   - king=2.2.4
   - r-qqman==0.1.4
   - psutil
+  
